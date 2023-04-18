@@ -1,4 +1,4 @@
 # My Fitness GYM
 - Search your category type and start doing.
 
-- By --> [Ankit Ydv](https://twitter.com/ydvtwts)
+- By ==> [Ankit Ydv](https://twitter.com/ydvtwts)
