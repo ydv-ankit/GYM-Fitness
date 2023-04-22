@@ -3,6 +3,9 @@ import {Box, Stack, Typography, Button} from '@mui/material'
 import HeroBannerImage from './../assets/images/banner.png'
 
 const HeroBanner = () => {
+  const scroll = () =>{
+    window.scrollTo({top:'1100'})
+  }
   return (
     <Box sx={{
       mt: {lg: '212px', xs: '70px'},
@@ -23,7 +26,7 @@ const HeroBanner = () => {
             lineHeight="35px" mb={3}>
             Checkout the most effective exercises
         </Typography>
-        <Button href='#exercises' variant='contained' color='error' sx={{backgroundColor: '#ff2625', padding:"20px"}}>Explore Exercises</Button>
+        <Button onClick={scroll} variant='contained' color='error' sx={{backgroundColor: '#ff2625', padding:"20px"}}>Explore Exercises</Button>
         <Typography 
           fontWeight={600} 
           color='#ff2625' 
